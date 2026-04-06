@@ -1,0 +1,23 @@
+{
+  "name": "lambda-file-transfer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/handler.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/handler.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mssql": "^9.0.1",
+    "p-limit": "^4.0.0",
+    "ssh2-sftp-client": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.11",
+    "@types/ssh2-sftp-client": "^9.0.6",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.2.0"
+  }
+}
